@@ -1,0 +1,23 @@
+:root {
+	--font-family: Arial;
+	--font-size: 24px;
+
+	--font-color:  #2A5774;
+	--background-color: #D1EEEA;
+	--shadow-color: rgba(0,0,0, 0.25);
+}
+
+body {
+	font-family: var(--font-family);	
+    font-size: var(--font-size);
+	color: var(--font-color);
+	background-color: var(--background-color);
+}
+
+p {
+    width: 100vw;
+    height: 100vh;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
